@@ -30,17 +30,22 @@ Route::get('/gallery', function () {
 });*/
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        "title" => "Home"
+    ]);
 });
 
 Route::get('/about', function () {
     return view('about', [
-        "nama" => "Lee Jeno",
-        "email" => "jenojjang@gmail.com",
-        "gambar" => "jeno_aesthetic.jpg"
+        "title" => "About",
+        "nama" => "Tifany Fadilah Ahnaf",
+        "email" => "3103120221@student.smktelkom-pwt.sch.id",
+        "gambar" => "tifany.jpeg"
     ]);
 });
 
 Route::get('/gallery', function () {
-    return view('gallery');
+    return view('gallery', [
+        "title" => "Gallery"
+    ]);
 });
