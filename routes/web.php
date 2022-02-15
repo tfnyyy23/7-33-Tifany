@@ -41,7 +41,7 @@ Route::get('/about', function () {
         "title" => "About",
         "nama" => "Tifany Fadilah Ahnaf",
         "email" => "3103120221@student.smktelkom-pwt.sch.id",
-        "gambar" => "tifany.jpeg"
+        "gambar" => "tifany3.png"
     ]);
 });
 
