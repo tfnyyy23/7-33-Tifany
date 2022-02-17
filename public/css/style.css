@@ -1,6 +1,10 @@
 
 @import url('../css/fonts.css');
 
+.bg-danger {
+    background-color: rgba(20, 143, 119)!important;
+}
+
 :root{
 
     /*      Theme colors        */
