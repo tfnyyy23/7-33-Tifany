@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Dashboard | Tifany</title>
+    <title>{{ Auth::user()->name }} | Dashboard</title>
 
     @include('partials/css')
 
